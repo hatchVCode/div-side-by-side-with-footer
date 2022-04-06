@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui;
+  background: #f06d06;
+  text-align: center;
+  position:relative;
+  min-height:100%;
+  background-size:100% 100%;
+  color:purple;
+  text-align: center;
+}
+.piece{
+  width: 100%; 
+  overflow: hidden;
+}
+.piece1{
+  background: blue;
+  width: 600px; 
+  float: left;
+  margin: 20px;
+  padding: 20px;
+}
+
+.piece2{
+  background: yellow;
+  margin-left: 620px;
+  margin: 20px;
+  padding: 20px;
+}
+
+canvas {
+  display: inline;
+}
+.footer{
+display: block;
+color:#fff;
+right:0;
+bottom:0;
+left:0;
+padding:1em;
+background-color:#571CAE;
+text-align:center;
+}
